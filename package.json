@@ -1,0 +1,29 @@
+{
+  "name": "cypress_projeto",
+  "version": "1.0.0",
+  "description": "cypress Projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "TEST",
+    "cypress:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "cy:run": "cypress run",
+    "one": "cypress run --spec cypress/integration/MeusScripts/Segundo_Teste.js"
+  },
+  "keywords": [
+    "test",
+    "cypress"
+  ],
+  "author": "Luma Lisley",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.0.3",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  },
+  "dependencies": {}
+}
